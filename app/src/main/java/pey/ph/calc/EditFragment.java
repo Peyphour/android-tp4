@@ -11,16 +11,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class TopFragment extends Fragment {
+
+public class EditFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public TopFragment() {
-        // Required empty public constructor
+    public EditFragment() {
     }
 
-    public static TopFragment newInstance() {
-        TopFragment fragment = new TopFragment();
+    public static EditFragment newInstance() {
+        EditFragment fragment = new EditFragment();
         return fragment;
     }
 
@@ -32,7 +32,7 @@ public class TopFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_top, container, false);
+        return inflater.inflate(R.layout.fragment_edit, container, false);
     }
 
     public void onButtonPressed(Uri uri) {
