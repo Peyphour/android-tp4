@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Super Calculator v6.6.6</string>
+    <string name="operation_string">Opération</string>
+    <string name="result_string">Résultat</string>
+</resources>
